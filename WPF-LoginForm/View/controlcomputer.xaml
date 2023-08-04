@@ -1,0 +1,261 @@
+﻿<UserControl x:Class="WPF_LoginForm.View.controlcomputer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_LoginForm.View"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" >
+
+
+    <Grid>
+        <Border CornerRadius="10"                    
+            BorderThickness="2"
+            Opacity="0.95">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,0">
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
+                    <GradientStop Color="#8A16C1" Offset="1"/>
+                </LinearGradientBrush>
+
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#1B1448" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+           </Border>
+
+
+        <StackPanel  >
+            <StackPanel Grid.Column="1"
+                                    Orientation="Horizontal"
+                                    FlowDirection="LeftToRight"
+                                    VerticalAlignment="Center"
+                                    Margin="0,20,0,0">
+                <StackPanel >
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer1" Click="btnComputer_Click"
+                        Command="{Binding ShowcomputerCheckCommand}"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 1" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel >
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer2" Click="btnComputer_Click"
+                             Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+
+                    </Button>
+                    <TextBlock Text="Máy 2" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer3" Click="btnComputer_Click"
+                           Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 3" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer4" Click="btnComputer_Click"
+                             Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 4" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer5" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 5" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>     
+            </StackPanel>
+            
+            <StackPanel Grid.Column="1"
+                                    Orientation="Horizontal"
+                                    FlowDirection="LeftToRight"
+                                    VerticalAlignment="Center"
+                                    Margin="0,50,0,0">
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer6" Click="btnComputer_Click"
+                          Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 6" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer7" Click="btnComputer_Click"
+                           Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 7" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer8" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 8" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer9" Click="btnComputer_Click"
+                             Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 9" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer10" Click="btnComputer_Click"
+                             Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 10" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+               
+
+
+            </StackPanel>
+            <StackPanel Grid.Column="1"
+                                    Orientation="Horizontal"
+                                    FlowDirection="LeftToRight"
+                                    VerticalAlignment="Center"
+                                    Margin="0,50,0,0">
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer11" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 11" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer12" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 12" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer13" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 13" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer14" Click="btnComputer_Click"
+                            Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 14" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Height="80"
+                        Width="90"
+                        Tag="{StaticResource color1}"
+                        Margin="60,0,0,0"
+                        Name="Computer15" Click="btnComputer_Click"
+                             Background="#0A003A"
+                            Foreground="White"
+                            BorderBrush="#0A003A">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource iconButtonIcon}" Height="80" Width="80"/>
+                    </Button>
+                    <TextBlock Text="Máy 15" VerticalAlignment="Center" Foreground="White" Width="50" Margin="80,0,0,0"/>
+                </StackPanel>
+                
+            </StackPanel>
+
+        </StackPanel>
+      
+    </Grid>
+</UserControl>
